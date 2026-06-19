@@ -1,44 +1,67 @@
 # Online Examination System
 
-## Description
+## Overview
 
-A Java console-based Online Examination System that allows users to:
+The Online Examination System is a Java-based console application that allows users to log in, take a multiple-choice examination, update their profile, change their password, and view their results. The system also includes a timer and auto-submit functionality.
 
-* Login
-* Update Profile
-* Change Password
-* Attempt MCQ-based exams
-* Timer-based exam submission
-* Auto submit when time expires
-* Logout
+## Features
+
+* User Login Authentication
+* Profile Update
+* Password Change
+* Multiple Choice Questions (MCQs)
+* Timer-Based Examination
+* Auto Submit on Time Expiry
+* Result Calculation
+* Logout Functionality
 
 ## Technologies Used
 
 * Java
+* Object-Oriented Programming (OOP)
 * VS Code
+* Git & GitHub
 
-## Features
+## Project Structure
 
-1. User Login
-2. Profile Management
-3. Password Change
-4. MCQ Examination
-5. Timer and Auto Submit
-6. Result Calculation
-7. Logout
+* OnlineExaminationSystem.java
+* User.java
+* Question.java
+* Result.java
 
-## Default Credentials
+## How to Run
+
+### Compile
+
+javac *.java
+
+### Run
+
+java OnlineExaminationSystem
+
+## Default Login Credentials
 
 Username: admin
 
 Password: 1234
 
-## How to Run
+## Sample Workflow
 
-Compile:
+1. Login using valid credentials.
+2. Start the examination.
+3. Answer the MCQs.
+4. Submit the exam or wait for auto-submit.
+5. View the result.
+6. Logout from the system.
 
-javac *.java
+## Learning Outcomes
 
-Run:
+* Java Programming Fundamentals
+* Object-Oriented Programming Concepts
+* User Authentication
+* Timer Implementation
+* GitHub Repository Management
 
-java OnlineExaminationSystem
+## Author
+
+Pranitha Chamarthi
